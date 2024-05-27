@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff); /* Градиентный фон */
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 2.5em;
+  color: #4CAF50; /* Зеленый цвет заголовка */
+}
+
+input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #45a049; /* Цвет при фокусе */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* Цвет при наведении */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  transition: transform 0.3s;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+#chart-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+}

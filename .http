@@ -1,0 +1,7 @@
+POST http://localhost:3000/wagner-fischer
+Content-Type: application/json
+
+{
+  "s1": "sting1",
+  "s2": "sting21"
+}
